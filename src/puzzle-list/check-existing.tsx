@@ -8,7 +8,7 @@ export async function getPuzzleRouteItems(): Promise<PuzzleRouteItem[]> {
 
     // Fetch the puzzle list from your GitHub JSON file
     const response = await fetch(
-        "https://raw.githubusercontent.com/LiamWhitenack/quotiac-data/refs/heads/dev/resources/puzzle-list.json"
+        "https://raw.githubusercontent.com/Codinack/quotiac-data/refs/heads/dev/resources/puzzle-list.json"
     );
     const data = await response.json(); // data is a dictionary like { "quote_20250815": { ...puzzleData... }, ... }
 
