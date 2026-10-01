@@ -117,7 +117,7 @@ const fetchQuote = async (dateString: string): Promise<CryptographBase | null> =
 
         // 2. Fetch from network
         let response = await fetch(
-            `https://raw.githubusercontent.com/LiamWhitenack/quotiac-data/refs/heads/dev/resources/by-date/${dateString}.json`
+            `https://raw.githubusercontent.com/Codinack/quotiac-data/refs/heads/dev/resources/by-date/${dateString}.json`
         );
 
         let puzzleData;
